@@ -1,6 +1,6 @@
 import requests
 
-response = requests.get("https://anapioficeandfire.com/api/") 
+response = requests.get("http://api.open-notify.org/astros.json") 
 print(response.json())
 
 import json
